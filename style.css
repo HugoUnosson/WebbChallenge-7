@@ -1,0 +1,90 @@
+body{
+	background-color: gray;
+	font-family: verdana;
+}
+
+.container{
+	background-color: pink;
+	width: 600px;
+	height: 600px;
+	margin: auto;
+}
+
+.header{
+	background-color: lightblue;
+	height: 80px;
+	color: transparent;
+	text-shadow: 0 0 10px rgba(0,0,0,0.5);
+	font-size: 40px;
+	font-weight: bold;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+.menu{
+	background-color: purple;
+	height: 50px;
+}
+
+.body{
+	background-color: darkred;
+	width: 400px;
+	height: 450px;
+	color: white;
+}
+
+.sidebar{
+	background-color: darkgreen;
+	height: 300px;
+
+}
+
+.h2{
+	padding-left: 5px;
+	padding-top: 20px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.hSide{
+	float: right;
+	font-size: 20px;
+	font-weight: bold;
+	padding-right: 110px;
+	padding-top: 10px;
+}
+
+.bild{
+	width: 80px;
+	float: right; 
+}
+
+.p{
+	padding-left: 5px;
+	padding-top: 20px;
+	font-size: 12px;
+}
+
+
+.bob{
+	float:left;
+	padding-top: 20px;
+	padding-left: 5px;
+	width: 100px;
+	border-right: dotted 1px white;
+}
+
+.bob2{
+	transform: scaleX(-1);
+	position: absolute;
+	top: 50px;
+	right: 135px;
+	width: 200px
+}
+
+.bob3{
+	position: absolute;
+	top: 50px;
+	left: 135px;
+	width: 200px
+}
